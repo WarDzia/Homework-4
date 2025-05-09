@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Code */
+
+@font-face {
+  font-family: "Deca";
+  src: url(../assets/Fonts/LexendDeca-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-color: #232340;
+  --secondary-color: #5468e7;
+}
+body {
+  background-color: red;
+}
+.FooterConteiner {
+  width: 1440px;
+  height: 500px;
+  background-color: var(--primary-color);
+  margin: 100px 0px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 0px 37px 140px;
+  font-family: "Deca", "Courier New", Courier, monospace;
+}
+
+.FooterConteiner .LogoSection {
+  margin-top: 73px;
+}
+
+.FooterConteiner .LogoSection h2 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.FooterConteiner .LogoSection p {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* .FooterConteiner .BottomConteiner {
+  color: #ffffff;
+} */
+.FooterConteiner .InfoSection {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 438px;
+  gap: 90px;
+  margin-right: 139px;
+}
+.FooterConteiner .InfoSection span {
+  color: var(--secondary-color);
+  font-size: 24px;
+  /* margin-bottom: 16px; */
+}
+.FooterConteiner .InfoSection ul {
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+.FooterConteiner .InfoSection input {
+  height: 46px;
+  width: 268px;
+  padding: 11px 0px 12px 16px;
+}
